@@ -1,4 +1,4 @@
-Este projeto tem o intuito de aprender o uso do git e implementar um banco de dados SQL
+Este projeto tem o intuito de aprender o uso do git e implementar de banco de dados SQL
 
 COMANDOS BASICOS GIT
  -git status (verifica se existe novas versões)
