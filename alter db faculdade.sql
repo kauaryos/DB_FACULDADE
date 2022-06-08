@@ -28,8 +28,7 @@ ALTER TABLE  endereco
 	MODIFY fk_cod_tipo_logradouro INT(4) NOT NULL;
 
 ALTER TABLE aluno
-    MODIFY RA INT(4) AUTO_INCREMENT,
-    MODIFY cod_tel_aluno INT(4) AUTO_INCREMENT;
+    MODIFY RA INT(4) AUTO_INCREMENT;
 
 ALTER TABLE historico
     MODIFY cod_historico INT(4) AUTO_INCREMENT,
