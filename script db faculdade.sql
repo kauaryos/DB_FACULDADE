@@ -1,6 +1,4 @@
-CREATE DATABASE IF NOT EXISTS faculdade 
-DEFAULT CHARSET utf8mb4 
-DEFAULT COLLATE utf8mb4_0900_ai_ci;
+CREATE DATABASE IF NOT EXISTS faculdade DEFAULT CHARSET utf8mb4 DEFAULT COLLATE utf8mb4_0900_ai_ci;
 
 USE faculdade;
 
@@ -76,7 +74,7 @@ CREATE TABLE IF NOT EXISTS turma (
 );
 
 CREATE TABLE IF NOT EXISTS endereco (
-	cod_endereco INT(4) PRIMARY KEY AUTO_INCREMENT ,
+	cod_endereco INT(4) PRIMARY KEY AUTO_INCREMENT,
 	nome_rua char(50),
 	numero_rua INT(4),
 	CEP CHAR(8),
@@ -137,7 +135,7 @@ CREATE TABLE IF NOT EXISTS historico (
 );
 
 CREATE TABLE IF NOT EXISTS disciplina_historico (
-	nota FLOAT(4,2),
+	nota FLOAT(4, 2),
 	frequencia INT(4),
 	fk_cod_disciplina INT(4),
 	fk_cod_historico INT(4),
