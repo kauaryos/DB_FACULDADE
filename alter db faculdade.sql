@@ -4,13 +4,13 @@ ALTER TABLE departamento
 MODIFY nome_departamento CHAR(20)NOT NULL;
 
 ALTER TABLE professor 
-    CHANGE nome nome_professor CHAR(20) NOT NULL,
-    CHANGE sobrenome sobrenome_professor CHAR(50) NOT NULL,
+    MODIFY nome_professor CHAR(20) NOT NULL,
+    MODIFY sobrenome_professor CHAR(50) NOT NULL,
     MODIFY fk_cod_departamento INT(4),
     MODIFY status BOOLEAN;
 
 ALTER TABLE disciplina
-    CHANGE cod_disciplina INTEGER(4) AUTO_INCREMENT,
+    MODIFY cod_disciplina INTEGER(4) AUTO_INCREMENT,
 	MODIFY carga_horaria INTEGER(4) NOT NULL,
 	MODIFY num_alunos INTEGER(4) NOT NULL,
 	MODIFY fk_cod_departamento INTEGER(4) NOT NULL;
@@ -25,7 +25,7 @@ ALTER TABLE  endereco
 	MODIFY numero_rua INT(4) NOT NULL,
 	MODIFY CEP CHAR(8) NOT NULL,
 	MODIFY complemento CHAR(20) NULL,
-	fk_cod_tipo_logradouro INT(4) NOT NULL;
+	MODIFY fk_cod_tipo_logradouro INT(4) NOT NULL;
 
 ALTER TABLE aluno
     MODIFY RA INT(4) AUTO_INCREMENT,
