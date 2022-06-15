@@ -36,7 +36,7 @@ ALTER TABLE
 
 ALTER TABLE
 	professor_disciplina MODIFY fk_cod_professor INT(4) NOT NULL,
-	MODIFY fk_cod_departamento INT(4) NOT NULL;
+	MODIFY fk_cod_disciplina INT(4) NOT NULL;
 
 ALTER TABLE
 	curso_disciplina MODIFY fk_cod_curso INT(4) NOT NULL,

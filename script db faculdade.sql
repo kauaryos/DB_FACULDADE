@@ -30,22 +30,21 @@ CREATE TABLE IF NOT EXISTS professor (
 );
 
 CREATE TABLE IF NOT EXISTS disciplina (
-	cod_disciplina INTEGER(4) NOT NULL AUTO_INCREMENT,
+	cod_disciplina INTEGER(4) PRIMARY KEY AUTO_INCREMENT,
 	nome_disciplina CHAR(20),
 	carga_horaria INTEGER(4),
 	descricao CHAR(50),
 	num_alunos INTEGER(4),
 	fk_cod_departamento INTEGER(4),
-	PRIMARY KEY (cod_disciplina),
 	FOREIGN KEY (fk_cod_departamento) REFERENCES departamento (cod_departamento)
 );
 
 CREATE TABLE IF NOT EXISTS professor_disciplina (
-	fk_cod_professor INT(4),
-	fk_cod_departamento INT(4),
-	PRIMARY KEY (fk_cod_professor, fk_cod_departamento),
-	FOREIGN KEY (fk_cod_professor) REFERENCES professor (cod_professor),
-	FOREIGN KEY (fk_cod_departamento) REFERENCES departamento (cod_departamento)
+    fk_cod_professor INT(4),
+    fk_cod_disciplina INT(4),
+    PRIMARY KEY (fk_cod_professor , fk_cod_disciplina),
+    FOREIGN KEY (fk_cod_professor) REFERENCES professor (cod_professor),
+    FOREIGN KEY (fk_cod_disciplina) REFERENCES disciplina (cod_disciplina)
 );
 
 CREATE TABLE IF NOT EXISTS curso (
