@@ -229,7 +229,7 @@ VALUES
     
 
     
-NSERT INTO professor_disciplina                                               
+INSERT INTO professor_disciplina                                               
     (fk_cod_professor,fk_cod_disciplina)                 
 VALUES                                                               
     ('1','1'),
