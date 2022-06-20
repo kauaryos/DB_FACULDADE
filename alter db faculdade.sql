@@ -1,4 +1,4 @@
-USE faculdade;
+USE db_faculdade;
 
 ALTER TABLE
 	departamento MODIFY nome_departamento CHAR(20) NOT NULL;
