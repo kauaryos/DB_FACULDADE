@@ -1,6 +1,6 @@
-CREATE DATABASE IF NOT EXISTS faculdade DEFAULT CHARSET utf8mb4 DEFAULT COLLATE utf8mb4_0900_ai_ci;
+CREATE DATABASE IF NOT EXISTS db_faculdade DEFAULT CHARSET utf8mb4 DEFAULT COLLATE utf8mb4_0900_ai_ci;
 
-USE faculdade;
+USE db_faculdade;
 
 CREATE TABLE IF NOT EXISTS tipo_logradouro (
 	cod_tipo_logradouro INTEGER(4) AUTO_INCREMENT,

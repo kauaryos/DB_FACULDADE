@@ -1,4 +1,4 @@
-USE faculdade;
+USE db_faculdade;
 
 INSERT INTO tipo_logradouro                                                      
     (cod_tipo_logradouro,tipo_logradouro)                 
