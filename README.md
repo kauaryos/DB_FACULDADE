@@ -1,9 +1,12 @@
-Este projeto tem o intuito de aprender o uso do git e implementar no banco de dados SQL
+Este projeto tem o intuito de implementar no banco de dados SQL
 
-COMANDOS BASICOS GIT
- - git status (Perifica se existem novas versões)
- - git add . (Prepara os arquivos) verde
- - git commit -m "Breve comentario" (Publica novo versão) 
- - git push -u origin main (Publica no github)
- - git push -u origin main (Publica no github)
- - git log (para ver as alterações)
+<object data="https://github.com/Kauaryos/DB_FACULDADE/blob/main/Kaua%20Ryos%20PROJETO%20SA1%20.pdf" type="application/pdf" width="100%" height="600px">
+    <p> ## Seu navegador não suporta PDFs. Você pode baixar o arquivo <a href="https://github.com/Kauaryos/DB_FACULDADE/blob/main/Kaua%20Ryos%20PROJETO%20SA1%20.pdf">aqui</a>.</p>
+</object>
+
+## Modelo lógico SA1
+![modelo lógico SA1](https://github.com/Kauaryos/DB_FACULDADE/blob/main/modelo%20logico%20SA1.png)
+
+
+
+
