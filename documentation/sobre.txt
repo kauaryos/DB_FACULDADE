@@ -1,0 +1,1 @@
+documentação relacionada ao projeto, como diagramas de banco de dados, descrições de tabelas e esquemas e descrições das consultas.
