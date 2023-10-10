@@ -1,0 +1,5 @@
+scripts SQL, organzei em cada script oque foi feito para ser mais transparente pelas coisas que sei fazer.
+create_tables: Scripts para criar tabelas no banco de dados.
+populate_data: Scripts para inserir dados nas tabelas.
+queries: Scripts de consultas SQL.
+alter_db: alterações feitas só pra dar um charme a mais.
