@@ -1,5 +1,3 @@
-Este projeto tem o intuito de implementar um banco de dados SQL
-
 # Projeto do Banco de Dados da Faculdade
 
 ## Olá, seja bem-vindo!
