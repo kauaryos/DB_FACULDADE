@@ -87,7 +87,7 @@ CREATE TABLE IF NOT EXISTS aluno (
     RA INT(4) PRIMARY KEY AUTO_INCREMENT,
     nome_aluno CHAR(20),
     sobrenome_aluno CHAR(20),
-    CPF INT(15),
+    CPF INT(11),
     whatsapp CHAR(20),
     status BOOLEAN,
     sexo CHAR(1),
